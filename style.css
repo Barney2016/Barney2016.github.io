@@ -1,41 +1,59 @@
 body{
-background-color:lightgray;
-max-width: 1000px;
+  width: 90%;
+  min-height: 700px;
+  border:solid;
+  border-color: darkblue;
+  border-width: 10px;
+  background-color: lightgray;
 }
-h1{
-text-align: center;
-font-size: 50px;
-font-family: comic sans ms;
+#remote{
+  height:80px;
+  width:200px;
+  border:solid;
+  border-color: darkgray;
+  background: lightgray;
+  align-items: center;
 }
-a{
-  color: black;
-  letter-spacing: 0.1em;
+#bluemoon{
+  position:fixed;
+  left:650px;
+  top:150px;
+  border-radius: 20%;
 }
-a:hover{
-  color:darkgray;
+#moon{
+  position: absolute;
+  top:660px;
+  height:60px;
+  width:90%;
+  background-image: url("moon.jpg");
 }
-img{
-height:130px;
-width:130px;
+#space{
+  position:absolute;
+  background-image: url("space.jpg");
+  height:600px;
+  width:90%;
+}
+
+#up{
+
+  }
+
+#down{
+
+}
+
+#left{
+
+}
+
+#right{
+
 }
 
 #start{
-  height:410px;
-  width:473px;
-  display:block;
-  padding-right: 100px;
-  padding-left: 100px;
 
 }
-#animals{
-  float:right;
-}
-#food{
-  float:left;
-}
-#main{
-    align-self: center;
-}
-#happycat, #sadcat{
-  visibility: hidden;
+
+#pause{
+
 }
